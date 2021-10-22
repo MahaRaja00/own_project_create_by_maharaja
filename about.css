@@ -1,0 +1,285 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(231, 226, 226);
+    
+   
+    animation-name:body_animation;
+    animation-duration: 1s;
+
+    overflow-x: hidden;
+
+}
+
+@keyframes body_animation
+{
+    from{
+        filter:blur(10px);
+     }
+    to{
+       filter:blur(0px);
+    }
+}
+    
+
+
+/*navcation bar*/
+#nav
+{
+    /* background-color:rgb(0, 60, 128); */
+    background:linear-gradient(100deg,rgb(0, 60, 128),rgb(40, 177, 231),rgb(0, 60, 128) );
+    width:100%;
+    height:60px;
+    border-radius:  0px  0px 20px 20px; 
+
+    position:absolute;
+    top:0px;
+
+    
+ }
+
+ul{
+    width: auto;
+    margin: auto;
+}
+
+ul li{
+    
+    list-style-type:none;
+    color:blue;
+    float:right;
+    padding-right:80px;
+    font-family:"Times New Roman";
+    text-transform: capitalize;
+    font-size:25px;
+    margin-top: 1%;
+}
+
+#menu{
+    text-decoration:none;
+    color:white;
+    transition:1s;
+    text-shadow:1px 1px 5px black;
+}
+
+#menu:hover
+{
+    color:chartreuse;
+    transition: 1s;
+
+}
+#icons{
+    transition: 1s;
+    text-shadow:1px 1px 5px black;
+
+}
+
+#icons:hover{
+    transition: 1s;
+    color:chartreuse;
+}
+/*logo college name*/
+
+#header{
+   
+    text-align: center;
+    padding-top:6% ;
+    padding-left: 25%;
+    color:rgb(0, 60, 128);
+    font-family:"Times New Roman";
+    text-shadow: 0.1px 0.1px 2px rgb(0, 60, 128);
+    margin-top:70px;
+
+    position: absolute;
+    top:30px;
+    left:250px;
+    
+   
+
+}
+
+
+img
+{
+   width:25%;
+   height:300px;
+  position: absolute;
+  top:90px;
+  left:300px;
+  
+   
+}
+
+/*ABOUT */
+h2{
+    text-align: center;
+    color:white;
+    font-size:30px;
+    text-shadow:3px 3px 1px black;
+ 
+
+}
+   
+#Aboutbox
+{
+    background:linear-gradient(-300deg,rgb(0, 60, 128),rgb(40, 177, 231),rgb(0, 60, 128) );
+
+    width:90%;
+    height:auto;
+
+    padding:20px;
+    border-radius:0px 50px 0px 50px ;
+    position: absolute;
+    top:400px;
+    left:45px;
+    margin:10px;
+    box-shadow: 5px 5px 12px rgb(97, 93, 93);
+    
+}
+    
+    
+
+#ap{
+    text-transform: capitalize;
+    font-size:20px;
+    color:white;
+    text-shadow:1px 1px 2px black;
+    margin: 40px;   
+    
+}
+
+/*go to top page*/
+
+.fa-arrow-up
+{
+    font-size:30px;
+    
+    
+    position: absolute;
+    top:320px;
+    right:45px;
+}
+
+.fa-arrow-up:hover
+{
+    color:yellow;
+}
+
+
+
+
+/*footer*/
+i
+{
+    color:white;
+    margin-right:10px;
+
+}
+#footer
+{
+    
+position:absolute;
+top:1500%;
+
+background-color: black;    
+width:1249px;;
+height: auto;
+clear: both;
+padding: 50px;
+
+border-radius: 20px;
+}
+
+/*links*/
+#linkh2{
+    text-align: left;
+}
+#links{
+    color:white;
+
+}
+#flink{
+    color:white;
+    transition: 0.5s;
+
+}
+
+#ficons:hover{
+    color:black; 
+    transition: 0.5s;
+
+
+}
+#l1{
+
+    text-decoration: none;
+    color:white;
+    margin:5px;
+    font-size: 18px;
+    transition: 0.5s;
+    
+}
+
+
+#l1:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    background-color: aqua;
+    padding: 10px;
+    color:black; 
+    border-radius: 20px;  
+ 
+    
+}
+#contact{
+    position: absolute;
+    top:50px;
+    right: 150px;
+    color:white;
+
+    text-align: center;
+
+    
+}
+
+
+#contact p{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#copy
+{
+    color:white;
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height:auto;
+
+    position: absolute;
+    top:370px;
+    left:0px;
+    text-align: center;
+    
+
+}
+#rights{
+
+  padding:10px;
+
+
+}
+
